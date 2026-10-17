@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "houston-rockets",
+  "compatibility_date": "2026-10-12",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  },
+  "routes": [
+    {
+      "pattern": "hou.505250.xyz",
+      "custom_domain": true
+    }
+  ]
+}
